@@ -1,21 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-domain.com/</loc>
-    <lastmod>2024-03-20</lastmod>
+    <loc>https://absblogs.onrender.com/</loc>
+    <lastmod>2024-03-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/category</loc>
-    <lastmod>2024-03-20</lastmod>
+    <loc>https://absblogs.onrender.com/category</loc>
+    <lastmod>2024-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.com/about</loc>
-    <lastmod>2024-03-20</lastmod>
+    <loc>https://absblogs.onrender.com/about</loc>
+    <lastmod>2024-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://absblogs.onrender.com/blog/nepal-faces-surge-in-cyber-attacks</loc>
+    <lastmod>2024-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://absblogs.onrender.com/blog/how-to-file-cyber-complaint</loc>
+    <lastmod>2024-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://absblogs.onrender.com/blog/nepal-launches-5g</loc>
+    <lastmod>2024-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://absblogs.onrender.com/blog/major-event-2025</loc>
+    <lastmod>2024-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://absblogs.onrender.com/blog/technology-advances-2025</loc>
+    <lastmod>2024-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset> 

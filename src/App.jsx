@@ -11,7 +11,6 @@ import NepalLaunches5G from "./Pages/Blog/NepalLaunches5G";
 import MajorEvent2025 from "./Pages/Blog/MajorEvent2025";
 import TechnologyAdvances2025 from "./Pages/Blog/TechnologyAdvances2025";
 import { ThemeProvider, useTheme } from "./context/ThemeContext";
-import SEO from './components/SEO';
 
 import './App.css';
 
@@ -20,7 +19,6 @@ function AppContent() {
 
   return (
     <div className={`min-h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
-      <SEO />
       <Navbar />
       <div className="container mx-auto p-8">
         <Routes>
