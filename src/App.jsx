@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HelmetProvider } from 'react-helmet-async';
 import Navbar from "./components/Navbar";
 import Home from "./Pages/Home";
 import Category from "./Pages/Category";
@@ -10,6 +11,7 @@ import NepalLaunches5G from "./Pages/Blog/NepalLaunches5G";
 import MajorEvent2025 from "./Pages/Blog/MajorEvent2025";
 import TechnologyAdvances2025 from "./Pages/Blog/TechnologyAdvances2025";
 import { ThemeProvider, useTheme } from "./context/ThemeContext";
+import SEO from './components/SEO';
 
 import './App.css';
 
@@ -18,6 +20,7 @@ function AppContent() {
 
   return (
     <div className={`min-h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
+      <SEO />
       <Navbar />
       <div className="container mx-auto p-8">
         <Routes>
@@ -37,11 +40,13 @@ function AppContent() {
 
 function App() {
   return (
-    <ThemeProvider>
-      <Router>
-        <AppContent />
-      </Router>
-    </ThemeProvider>
+    <HelmetProvider>
+      <ThemeProvider>
+        <Router>
+          <AppContent />
+        </Router>
+      </ThemeProvider>
+    </HelmetProvider>
   );
 }
 
